@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#965fd4;
+    font-size: 16px;
+    color: #1d1a2f;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 3.5rem;
+  }
+
+  .navegador {
+    font-family: "Playfair Display";
+    font-weight: 800;
+  }
+  
+  nav {
+    background-color: #8bd450;
+    color: #3f6d4e;
+    width: 90%;
+    margin: auto;
+    max-width: 1800px;
+    padding: 0.9rem 2rem;
+    display: inline-flex;
+    gap: 30rem;
+    border-radius: 3rem 3rem;
+  }
+
+  nav > a {
+    color: #1d1a2f;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+  }
+  
+  nav > ul a {
+    color: #1d1a2f;
+    text-decoration: none;
+  }
+  
+  header {
+    width: 95%;
+    margin: auto;
+    max-width: 1800px;
+    display: flex;
+    height: 80vh;
+  }
+  
+  header div {
+    width: 40%;
+  }
+
+  .imgur{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  img{
+    border-radius: 10px;
+  }
+
+  section {
+    width: 95%;
+    max-width: 1800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #734f9a;
+    border-radius: 1rem 1rem;
+  }
+  
+  
+
+  footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
